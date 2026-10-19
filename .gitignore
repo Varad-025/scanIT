@@ -1,0 +1,29 @@
+# Build artifacts
+*.tmp
+*.log
+*.bak
+*.swp
+*~
+
+# Generated reports (never commit scan results)
+ScannedIp*.txt
+scan_errors.log
+
+# Local state (per-machine quota tracking) — never commit
+.ipscan_state/
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Test files
+test_ips/
+Ip_*.txt
+script.sh.local
+script.sh.local
+scanIT.sh.local

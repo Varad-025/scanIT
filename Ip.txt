@@ -1,0 +1,18 @@
+# ipscan demo input file — replace with your real IPs
+# Lines starting with # are ignored; blank lines are ignored.
+
+# Well-known infrastructure IPs (expect CLEAN)
+8.8.8.8
+1.1.1.1
+9.9.9.9
+208.67.222.222
+
+# Commonly flagged IPs (expect MALICIOUS)
+185.220.101.1
+23.94.190.107
+45.79.190.221
+
+# Invalid lines (will be skipped by validator)
+not_an_ip
+999.999.999.999
+1.2.3
